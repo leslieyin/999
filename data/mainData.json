@@ -114,55 +114,6 @@
                     "show": true
                 }]
             }, {
-                "name": "购物",
-                "value": "shopping",
-                "icon": "fa fa-shopping-cart",
-                "color": "",
-                "show": true,
-                "content": [{
-                    "name": "淘宝",
-                    "url": "https://www.taobao.com/",
-                    "icon": "taobao",
-                    "color": "#FF5C00",
-                    "show": true
-                }, {
-                    "name": "京东",
-                    "url": "https://www.jd.com/",
-                    "icon": "jd",
-                    "color": "#e33333",
-                    "show": true
-                }, {
-                    "name": "天猫",
-                    "url": "https://www.tmall.com/",
-                    "icon": "tmall",
-                    "color": "#FE0036",
-                    "show": true
-                }, {
-                    "name": "拼多多",
-                    "url": "https://www.pinduoduo.com/",
-                    "icon": "pinduoduo",
-                    "color": "#f83e3e",
-                    "show": true
-                }, {
-                    "name": "苏宁易购",
-                    "url": "https://www.suning.com/",
-                    "icon": "suning",
-                    "color": "#FFD000",
-                    "show": true
-                }, {
-                    "name": "网易考拉",
-                    "url": "https://www.kaola.com/",
-                    "icon": "kaola",
-                    "color": "#E9424D",
-                    "show": true
-                }, {
-                    "name": "亚马逊",
-                    "url": "https://www.amazon.cn/",
-                    "icon": "amazon",
-                    "color": "#232323",
-                    "show": true
-                }]
-            }, {
                 "name": "新闻",
                 "value": "news",
                 "icon": "fa fa-newspaper-o",
@@ -234,6 +185,55 @@
                     "url": "http://news.baidu.com/",
                     "icon": "newsbaidu",
                     "color": "#2932E1",
+                    "show": true
+                }]
+            },{
+                "name": "购物",
+                "value": "shopping",
+                "icon": "fa fa-shopping-cart",
+                "color": "",
+                "show": true,
+                "content": [{
+                    "name": "淘宝",
+                    "url": "https://www.taobao.com/",
+                    "icon": "taobao",
+                    "color": "#FF5C00",
+                    "show": true
+                }, {
+                    "name": "京东",
+                    "url": "https://www.jd.com/",
+                    "icon": "jd",
+                    "color": "#e33333",
+                    "show": true
+                }, {
+                    "name": "天猫",
+                    "url": "https://www.tmall.com/",
+                    "icon": "tmall",
+                    "color": "#FE0036",
+                    "show": true
+                }, {
+                    "name": "拼多多",
+                    "url": "https://www.pinduoduo.com/",
+                    "icon": "pinduoduo",
+                    "color": "#f83e3e",
+                    "show": true
+                }, {
+                    "name": "苏宁易购",
+                    "url": "https://www.suning.com/",
+                    "icon": "suning",
+                    "color": "#FFD000",
+                    "show": true
+                }, {
+                    "name": "网易考拉",
+                    "url": "https://www.kaola.com/",
+                    "icon": "kaola",
+                    "color": "#E9424D",
+                    "show": true
+                }, {
+                    "name": "亚马逊",
+                    "url": "https://www.amazon.cn/",
+                    "icon": "amazon",
+                    "color": "#232323",
                     "show": true
                 }]
             }, {
@@ -982,7 +982,7 @@
                 "href": "",
                 "icon": "fa fa-question-circle-o",
                 "color": "#0078D4",
-                "show": true,
+                "show": false,
                 "content": [{
                     "name": "简介",
                     "value": "introduction",
@@ -1082,38 +1082,12 @@
                     "content": ""
                 }]
             }]
-        }, {
-            "name": "高级设置",
-            "value": "advancedSettings",
-            "icon": "fa fa-cog",
-            "color": "#43341B",
-            "show": false,
-            "content": [{
-                "name": "调整UI圆角",
-                "value": "changeRadios",
-                "type": "range",
-                "href": "",
-                "color": "#006d21",
-                "icon": "",
-                "show": false,
-                "content": ""
-            }, {
-                "name": "调整页面配色",
-                "value": "changeColors",
-                "type": "colorSelector",
-                "href": "",
-                "color": "#006d21",
-                "icon": "",
-                "show": true,
-                "content": ""
-            }]
-
         }
 		]
     },
     "copyright": {
-        "href": "https://www.virs.xyz",
+        "href": "https://blog.yhz610.com",
         "show": true,
-        "content": "©#before#-#after# by #author#. All rights reserved."
+        "content": "个人主页"
     }
 }

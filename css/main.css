@@ -545,9 +545,9 @@ span {
     justify-content: center;
     align-items: center;
     padding: 5px 0;
-    border-bottom: 2px solid #121212; /*边栏按钮颜色*/
+    border-bottom: 2px solid #121212A6; /*边栏按钮颜色*/
     font-size: 16px;
-    color: #121212; /*边栏主标题颜色*/
+    color: #232323C4; /*边栏主标题颜色*/
 }
 
 #scrollContent {

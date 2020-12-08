@@ -48,11 +48,7 @@ export const createSetting = () => {
             sideBarHtml = "";
         }
     })
-    settingInfo += `
-        <div id="advancedSettings">
-            <span>高级设置&nbsp;</span>
-            <i class="fa fa-sort"></i>
-        </div>`;
+
     return settingInfo;
 }
 
