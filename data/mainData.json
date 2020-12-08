@@ -1035,6 +1035,33 @@
                     }]
                 }]
             }, {
+                "name": "友情链接",
+                "type": "link",
+                "value": "thanks",
+                "href": "",
+                "icon": "fa fa-address-card",
+                "show": true,
+                "content": [{
+                    "name": "创造日报",
+                    "value": "creatorsdaily",
+                    "type": "thanks",
+                    "href": "https://creatorsdaily.com/",
+                    "color": "#DF7772",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                },
+				{
+                    "name": "简单搜索",
+                    "value": "jiandan",
+                    "type": "thanks",
+                    "href": "https://search.virs.xyz/",
+                    "color": "#282828D9",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                }]
+            },{
                 "name": "感谢",
                 "type": "link",
                 "value": "thanks",
@@ -1060,19 +1087,9 @@
                     "icon": "",
                     "show": true,
                     "content": ""
-                }, 
+                },  
 				{
-                    "name": "必应壁纸",
-                    "value": "bingBg",
-                    "type": "thanks",
-                    "href": "https://bing.ioliu.cn/",
-                    "color": "#006d21",
-                    "icon": "",
-                    "show": true,
-                    "content": ""
-                }, 
-				{
-                    "name": "一言",
+                    "name": "一言API",
                     "value": "hitokoto",
                     "type": "thanks",
                     "href": "https://developer.hitokoto.cn/",
@@ -1081,7 +1098,8 @@
                     "show": true,
                     "content": ""
                 }]
-            }]
+            }
+			]
         }
 		]
     },
