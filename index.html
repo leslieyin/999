@@ -19,12 +19,21 @@
     <link rel="stylesheet" href="./css/fontAwesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/main.css">
 	<link rel="icon" href="img/logo/logo.ico">
+	<link rel="manifest" href="/pwa/manifest.json">
+    <meta name="theme-color" content="#3eaf7c"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="apple-touch-icon" href="/pwa/icons/128.png">
+    <link rel="mask-icon" href="/pwa/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <meta name="msapplication-TileImage" content="/pwa/icons/200.png"/>
+    <meta name="msapplication-TileColor" conten="#000000"/>
+	
     <!-- <link id="skinTag" rel="stylesheet" href="./css/skin/skin_SunsetBeach.css"> -->
     <link id="uiTag" rel="stylesheet" href="./css/uistyle/neumorphism.min.css">
     <script>
         /*@cc_on window.location.href="http://support.dmeng.net/upgrade-your-browser.html?referrer="+encodeURIComponent(window.location.href); @*/
     </script>
-		<script async>
+    <script async>
       var _hmt = _hmt || [];
       (function () {
         var hm = document.createElement("script");
@@ -121,6 +130,16 @@
     <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
     <script type="module" src="./js/main.js"></script>
 	<script src="//topurl.cn/chat.js" async="async" fold></script>
+	<script>
+  // 检测浏览器是否支持SW
+  if(navigator.serviceWorker != null){
+    navigator.serviceWorker.register('/pwa/sw.js')
+    .then(function(registartion){
+      console.log('支持sw:',registartion.scope)
+    })
+  }
+</script>
+
 </body>
 
 </html>
