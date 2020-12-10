@@ -24,6 +24,10 @@ import {
     createToDo
 } from "./todo.func.js";
 
+import {
+    createceshi
+} from "./ceshi.func.js";
+
 //创建侧边栏图标
 export const renderSideBarIcon = () => {
     for (let item in jsonData.sideBar.content) {
@@ -73,6 +77,9 @@ export const renderSideBarContent = (id) => {
         case "Setting":
             scrollContent.innerHTML = createSetting();
             break;
+		case "ceshi":
+            scrollContent.innerHTML = createceshi();
+            break;	
     }
     sideBar.className = "moveLeft";
     stopPropagation();

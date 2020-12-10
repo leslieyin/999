@@ -64,11 +64,12 @@
         "select": ""
     }],
     "sideBar": {
-        "content": [{
+        "content": [
+		{
             "name": "书签",
             "value": "Website",
             "icon": "fa fa-tags",
-            "color": "#1B813E",
+            "color": "#29A4FA",
             "show": true,
             "content": [{
                 "name": "社交",
@@ -649,7 +650,159 @@
                     "show": true
                 }]
             }]
-        }, {
+        },{
+            "name": "友链",
+            "value": "ceshi",
+            "icon": "fa fa-rss",
+            "color": "#FF7200E3",
+            "show": true,
+            "content": [{
+                "name": "个人站点",
+                "type": "link",
+                "value": "thanks",
+                "href": "",
+                "icon": "fa fa-user-o",
+                "show": true,
+                "content": [{
+                    "name": "个人博客",
+                    "value": "creatorsdaily",
+                    "type": "thanks",
+                    "href": "https://blog.yhz610.com/",
+                    "color": "#DF7772",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                },
+				{
+                    "name": "今日热榜",
+                    "value": "rebang",
+                    "type": "thanks",
+                    "href": "https://hot.yhz610.com/",
+                    "color": "#282828D9",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                },{
+                    "name": "中文诗歌",
+                    "value": "shici",
+                    "type": "thanks",
+                    "href": "https://shici.yhz610.com/",
+                    "color": "#282828D9",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                },{
+                    "name": "私人云盘",
+                    "value": "rebang",
+                    "type": "thanks",
+                    "href": "https://cloud.yhz610.com/",
+                    "color": "#282828D9",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                }]
+            },{
+                "name": "站点",
+                "type": "link",
+                "value": "thanks",
+                "href": "",
+                "icon": "fa fa-internet-explorer",
+                "show": true,
+                "content": [{
+                    "name": "创造日报",
+                    "value": "creatorsdaily",
+                    "type": "thanks",
+                    "href": "https://creatorsdaily.com/",
+                    "color": "#DF7772",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                }]
+            },{
+                "name": "博客",
+                "type": "link",
+                "value": "thanks",
+                "href": "",
+                "icon": "fa fa-address-card",
+                "show": true,
+                "content": [{
+                    "name": "阿猫阿狗",
+                    "value": "creatorsdaily",
+                    "type": "thanks",
+                    "href": "https://blog.yhz610.com/",
+                    "color": "#DF7772",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                }
+				]
+            },{
+                "name": "网址导航",
+                "type": "link",
+                "value": "thanks",
+                "href": "",
+                "icon": "fa fa-search",
+                "show": true,
+                "content": [
+				{
+                    "name": "简单搜索",
+                    "value": "jiandan",
+                    "type": "thanks",
+                    "href": "https://search.virs.xyz/",
+                    "color": "#282828D9",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                },{
+                    "name": "快 搜 索",
+                    "value": "jiandan",
+                    "type": "thanks",
+                    "href": "https://quickso.cn/",
+                    "color": "#282828D9",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                }]
+            },
+			{
+                "name": "感谢",
+                "type": "link",
+                "value": "thanks",
+                "href": "",
+                "icon": "fa fa-thumbs-o-up",
+                "show": true,
+                "content": [{
+                    "name": "主题作者",
+                    "value": "zuozhe",
+                    "type": "thanks",
+                    "href": "https://github.com/virzs/Search",
+                    "color": "#FDA1FF",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                },
+				{
+                    "name": "今日诗词",
+                    "value": "jinrishici",
+                    "type": "thanks",
+                    "href": "https://www.jinrishici.com",
+                    "color": "#1aaf5d",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                },  
+				{
+                    "name": "一言API",
+                    "value": "hitokoto",
+                    "type": "thanks",
+                    "href": "https://developer.hitokoto.cn/",
+                    "color": "#3EAF7C",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
+                }]
+            }]},
+		{
             "name": "待办",
             "value": "ToDo",
             "icon": "fa fa-star",
@@ -1033,70 +1186,6 @@
                         "show": true,
                         "content": "859791575"
                     }]
-                }]
-            }, {
-                "name": "友情链接",
-                "type": "link",
-                "value": "thanks",
-                "href": "",
-                "icon": "fa fa-address-card",
-                "show": true,
-                "content": [{
-                    "name": "创造日报",
-                    "value": "creatorsdaily",
-                    "type": "thanks",
-                    "href": "https://creatorsdaily.com/",
-                    "color": "#DF7772",
-                    "icon": "",
-                    "show": true,
-                    "content": ""
-                },
-				{
-                    "name": "简单搜索",
-                    "value": "jiandan",
-                    "type": "thanks",
-                    "href": "https://search.virs.xyz/",
-                    "color": "#282828D9",
-                    "icon": "",
-                    "show": true,
-                    "content": ""
-                }]
-            },{
-                "name": "感谢",
-                "type": "link",
-                "value": "thanks",
-                "href": "",
-                "icon": "fa fa-thumbs-o-up",
-                "show": true,
-                "content": [{
-                    "name": "主题作者",
-                    "value": "zuozhe",
-                    "type": "thanks",
-                    "href": "https://github.com/virzs/Search",
-                    "color": "#FDA1FF",
-                    "icon": "",
-                    "show": true,
-                    "content": ""
-                },
-				{
-                    "name": "今日诗词",
-                    "value": "jinrishici",
-                    "type": "thanks",
-                    "href": "https://www.jinrishici.com",
-                    "color": "#1aaf5d",
-                    "icon": "",
-                    "show": true,
-                    "content": ""
-                },  
-				{
-                    "name": "一言API",
-                    "value": "hitokoto",
-                    "type": "thanks",
-                    "href": "https://developer.hitokoto.cn/",
-                    "color": "#3EAF7C",
-                    "icon": "",
-                    "show": true,
-                    "content": ""
                 }]
             }
 			]
