@@ -654,7 +654,7 @@
             "name": "友链",
             "value": "ceshi",
             "icon": "fa fa-rss",
-            "color": "#FF7200E3",
+            "color": "#DF7772",
             "show": true,
             "content": [{
                 "name": "个人站点",
