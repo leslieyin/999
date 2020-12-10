@@ -14,14 +14,5 @@ self.addEventListener('install',e =>{
   )
 })
 
-//activate event
-self.addEventListener('activate', evt => {
-  console.log('service worker activated');
-})
-
-//fetch event
-self.addEventListener('fetch', evt => {
-  console.log('fetch Event', evt);
-})
 
 self.addEventListener('fetch', function(event) {})
