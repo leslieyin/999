@@ -762,6 +762,15 @@
                     "icon": "",
                     "show": true,
                     "content": ""
+                },{
+                    "name": "笔点导航",
+                    "value": "jiandan",
+                    "type": "thanks",
+                    "href": "https://www.bidianer.com/",
+                    "color": "#282828D9",
+                    "icon": "",
+                    "show": true,
+                    "content": ""
                 }]
             },
 			{
